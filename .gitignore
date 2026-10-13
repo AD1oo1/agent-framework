@@ -20,3 +20,11 @@ htmlcov/
 # OS
 .DS_Store
 Thumbs.db
+
+# Secrets and local certificates
+.env
+.env.*
+!.env.example
+*.crt
+*.key
+*.pem
